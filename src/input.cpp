@@ -1,5 +1,5 @@
-#include "Input.h"
-#include "Validation.h"
+#include "../headers/input.h"
+#include "../headers/validation.h"
 
 #include <cstdio>
 #include <iostream>

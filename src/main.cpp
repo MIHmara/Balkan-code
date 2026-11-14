@@ -4,10 +4,10 @@
 // the screen output in Renderer and the keyboard handling in Input.
 // ===========================================================================
 
-#include "../include/Game.h"
-#include "../include/GameConfig.h"
-#include "../include/Input.h"
-#include "../include/Renderer.h"
+#include "../headers/Game.h"
+#include "../headers/GameConfig.h"
+#include "../headers/Input.h"
+#include "../headers/Renderer.h"
 
 #include <ctime>
 #include <iostream>
