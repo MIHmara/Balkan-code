@@ -1,0 +1,20 @@
+# Build output
+maze
+maze_tests
+*.exe
+*.o
+*.obj
+build/
+out/
+
+# IDE files
+.vs/
+.vscode/
+*.user
+x64/
+Debug/
+Release/
+
+# Visual Studio build output
+bin/
+obj/
