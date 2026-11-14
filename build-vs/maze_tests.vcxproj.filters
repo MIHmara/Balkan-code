@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\src\Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\src\Validation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\src\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\TestFramework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\TestHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\ValidationTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\MazeTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\GameTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\tests\TestMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Martin\OneDrive\Pictures\maze-game\maze-game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF1077B6-83D3-306E-BDF2-79C002D3AAD5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

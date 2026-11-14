@@ -1,0 +1,64 @@
+Start testing: Nov 14 18:15 FLE Standard Time
+----------------------------------------------------------
+1/1 Testing: all_tests
+1/1 Test: all_tests
+Command: "C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build-vs/Debug/maze_tests.exe"
+Directory: C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build-vs
+"all_tests" start time: Nov 14 18:15 FLE Standard Time
+Output:
+----------------------------------------------------------
+Maze - automated tests
+
+Validation
+[PASS] TC-V01  Parse valid numbers
+[PASS] TC-V02  Reject invalid text
+[PASS] TC-V03  Reject too long numbers
+[PASS] TC-V04  Maze size boundaries 10-50
+[PASS] TC-V05  Seed boundaries
+[PASS] TC-V06  Trim whitespace
+
+Input mapping
+[PASS] TC-I01  Movement keys W/A/S/D
+[PASS] TC-I02  Command keys H/I/L/Q
+[PASS] TC-I03  Unknown keys
+
+Maze
+[PASS] TC-M01  Create and destroy maze
+[PASS] TC-M02  Inside / outside the maze
+[PASS] TC-M03  Walkable tiles
+[PASS] TC-M04  Start and exit for sizes 10-50
+[PASS] TC-M05  Exit reachable without doors
+[PASS] TC-M06  All open tiles connected
+[PASS] TC-M07  Same seed gives same maze
+[PASS] TC-M08  Different seeds give different mazes
+[PASS] TC-M09  Doors placed correctly
+[PASS] TC-M10  Doors shorten the route
+[PASS] TC-M11  Keys placed correctly
+[PASS] TC-M12  Shortest path on hand-made maze
+[PASS] TC-M13  Distance calculation (BFS)
+
+Game
+[PASS] TC-G01  New game initial state
+[PASS] TC-G02  Move blocked by edge
+[PASS] TC-G03  Move blocked by wall
+[PASS] TC-G04  Door locked without key
+[PASS] TC-G05  Key is collected
+[PASS] TC-G06  Door opens with key
+[PASS] TC-G07  Reaching the exit wins
+[PASS] TC-G08  canMove reflects the rules
+[PASS] TC-G09  Shortest route wins generated mazes
+[PASS] TC-G10  Star rating
+[PASS] TC-G11  Distance to exit equals par
+[PASS] TC-G12  endGame releases memory
+
+----------------------------------------
+Total: 34   Passed: 34   Failed: 0
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"all_tests" end time: Nov 14 18:15 FLE Standard Time
+"all_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 14 18:15 FLE Standard Time

@@ -1,0 +1,10 @@
+^C:\USERS\MARTIN\ONEDRIVE\PICTURES\MAZE-GAME\MAZE-GAME\BUILD-VS\CMAKEFILES\A93B668C9E9229A035C71A8E3A8D8A17\RUN_TESTS_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
