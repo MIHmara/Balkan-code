@@ -1,0 +1,5 @@
+C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/CMakeFiles/maze.dir
+C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/CMakeFiles/maze_tests.dir
+C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/CMakeFiles/ZERO_CHECK.dir

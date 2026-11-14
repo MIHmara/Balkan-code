@@ -1,0 +1,10 @@
+^C:\USERS\MARTIN\ONEDRIVE\PICTURES\MAZE-GAME\MAZE-GAME\BUILD\CMAKEFILES\172B399A12EF4E25E5675A7583719E53\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Martin/OneDrive/Pictures/maze-game/maze-game -BC:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Martin/OneDrive/Pictures/maze-game/maze-game/build/Maze.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
